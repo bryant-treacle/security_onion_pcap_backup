@@ -12,4 +12,4 @@ This script will compress and copy the current PCAP in the daily_logs folder and
     "@reboot root <filepath to script>"
 
 #### Step 4. Edit the script and replace the following line with the appropriate information
-  "scp -i /home/USERNAME/.ssh/id_rsa ~/$i-$SENSOR_NAME.tar.gz USERNAME@IP_ADDRESS:DESTINATION_FILE_PATH"
+    "scp -i /home/USERNAME/.ssh/id_rsa ~/$i-$SENSOR_NAME.tar.gz USERNAME@IP_ADDRESS:DESTINATION_FILE_PATH"
